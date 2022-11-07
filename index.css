@@ -1,0 +1,8 @@
+body {
+    background: rgba(0,0,0,0.7)  url(https://images5.alphacoders.com/381/381504.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    background-blend-mode: darken;
+}
+.type {
+    color: orange;
+}
