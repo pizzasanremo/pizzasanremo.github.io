@@ -54,9 +54,10 @@ body {
     border-color: white;
     padding: 12px;
 }
-@media all and (max-width: 600px) {
+/*@media all and (max-width: 600px) {
     body {
         background-repeat: no-repeat;
         background-position: center;
     }
 }
+*/
