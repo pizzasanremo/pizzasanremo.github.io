@@ -22,5 +22,5 @@ function getOS() {
   
     return os;
   }
-  
+getOS()
  
