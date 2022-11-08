@@ -23,4 +23,10 @@ function getOS() {
     return os;
   }
 getOS()
- 
+
+if (getOS() == 'Android') {
+    alert("Auf Android geht diese site villeicht nicht wir emphelen diese das die es auf en pc versuchen")
+}
+if (getOS() == 'iOS') {
+    alert("Auf IOS geht diese site villeicht nicht wir emphelen diese das die es auf en pc versuchen")
+}
