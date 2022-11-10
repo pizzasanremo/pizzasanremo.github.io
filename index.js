@@ -10,12 +10,12 @@ function getOS() {
       os = 'Mac OS';
     } else if (iosPlatforms.indexOf(platform) !== -1) {
       os = 'iOS';
-      alert("Auf IOS geht diese site villeicht nicht wir emphelen diese das die es auf en pc versuchen")
+      //alert("Auf IOS geht diese site villeicht nicht wir emphelen diese das die es auf en pc versuchen")
     } else if (windowsPlatforms.indexOf(platform) !== -1) {
       os = 'Windows';
     } else if (/Android/.test(userAgent)) {
       os = 'Android';
-      alert("Auf Android geht diese site villeicht nicht wir emphelen diese das die es auf en pc versuchen")
+      // alert("Auf Android geht diese site villeicht nicht wir emphelen diese das die es auf en pc versuchen")
     } else if (!os && /Linux/.test(platform)) {
       os = 'Linux';
     }
